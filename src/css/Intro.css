@@ -1,0 +1,72 @@
+.Intro {
+  height: 305px;
+  background-color: #526baa;
+  color: white;
+  padding: 71px 30px 22px 30px;
+  box-sizing: content-box;
+}
+
+.Intro  h1 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.Intro p {
+  margin: 0;;
+  font-size: 35px;
+}
+
+.Intro span.sub {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 13px;
+  display: block;
+}
+
+table  {
+  width: 100%;
+  text-align: left;
+  margin-top: 75px;
+}
+
+table td.center {
+  text-align: center;
+}
+
+table td.right {
+  text-align: right;
+}
+
+table td .td-box {
+  display: inline-block;
+}
+
+table td.center .td-box, table td.right .td-box {
+  text-align: left;
+}
+
+table td .td-box .td-title {
+  color: #fff;
+  opacity: .5;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+table td .td-box .td-content {
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+
+table td span.year {
+  font-size: 26px;
+  font-weight: 400;
+  margin-right: 3px;
+}
+
+table td span.unit {
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 3px;
+}

@@ -1,0 +1,95 @@
+.Charge {
+  height: 520px;
+  background-color: #f7f7f7;
+  padding: 35px 20px 20px 20px;
+}
+
+.Charge h3 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.Charge p {
+  font-size: 14px;
+  color: #666;
+  line-height: 25px;
+}
+
+.Charge #device-wrapper {
+  height: 400px;
+}
+
+.Charge #device {
+  background-image: url('../images/bg_emergency2.png');
+  background-size: 617px 385px;
+  width: 618px;
+  height: 385px;
+  position: absolute;
+  visibility: hidden;
+}
+
+.Charge #device.active {
+  left: 54%;
+  margin-top: 9px;
+  margin-left: -300px;
+  animation: device-appear;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-in-out;
+  visibility: visible;
+}
+
+@keyframes device-appear {
+  from { left: 125%; margin-top: 290px; opacity: 0; }
+  to   { left: 54%; margin-top: 9px; opacity: 1; }
+}
+
+.Charge #card {
+  background-image: url('../images/img_emergency2.png');
+  background-size: 315px 195px;
+  background-repeat: no-repeat;
+  width: 315px;
+  height: 195px;
+  position: absolute;
+  margin-top: 75px;
+  margin-left: 153px;
+  transform: scale(0.85);
+}
+
+.Charge #card.active {
+  margin-top: 50px;
+  margin-left: 144px;
+  animation: card-expand;
+  animation-duration: 2s;
+  transform: scale(1);
+}
+
+@keyframes card-expand {
+  from  { transform: scale(0.85) translate(10px, 30px); }
+  to    { transform: scale(1) translate(0px, 0px);  }
+}
+
+.Charge #text {
+  position: absolute;
+  color: black;
+  width: 107px;
+  font-size: 17px;
+  font-weight: 700;
+  top: 70px;
+  left: 248px;
+  margin-left: -145px;
+  transform: rotate(-33deg) skew(24deg);
+}
+
+.Charge #text.active {
+  font-size: 19px;
+  left: 248px;
+  margin-top: 16px;
+}
+
+span.counting-number {
+  width: 90px;
+  height: 23px;
+  display: inline-block;
+  text-align: right;
+}

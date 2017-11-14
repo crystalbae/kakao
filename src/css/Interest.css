@@ -1,0 +1,17 @@
+.Interest {
+  background-color: white;
+  padding: 30px 20px 40px 20px;
+  position: relative;
+}
+
+.Interest h4 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.Interest p {
+  font-size: 14px;
+  color: #6E6E6E;
+  line-height: 25px;
+}

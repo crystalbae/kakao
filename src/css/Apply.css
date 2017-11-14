@@ -1,0 +1,167 @@
+.Apply {
+  padding: 20px 20px 25px 20px;
+  background-color: #f7f7f7;
+  height: 500px;
+}
+
+.Apply h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+
+.Apply p {
+  font-size: 14px;
+  color: #696969;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+#radial-progress {
+  width: 248px;
+  height: 248px;
+  left: 50%;
+  margin-left: -124px;
+  position: absolute;
+  border-radius: 50%;
+  visibility: hidden;
+}
+
+#radial-progress.active {
+  animation: show;
+  animation-duration: 1.5s;
+  visibility: visible;
+}
+
+@keyframes show{
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.circle .mask, .fill {
+  width: 248px;
+  height: 248px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-backface-visibility: hidden;
+}
+
+.circle .mask {
+  clip: rect(0px, 248px, 248px, 124px);
+}
+
+.circle .mask .fill {
+  clip: rect(0px, 124px, 248px, 0px);
+  background-color: #526baa;
+}
+
+.circle .mask.full.active, .mask .fill.active {
+  animation: trans;
+  animation-duration: 3s;
+  transition: transform 1s;
+  transform: rotate(162deg);
+}
+
+@keyframes trans {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(162deg); }
+}
+
+.circle .mask .fill.fix.active {
+  animation: fill-fix;
+  animation-duration: 3s;
+  transition: transform 1s;
+  transform: rotate(324deg);
+}
+
+@keyframes fill-fix {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(324deg); }
+}
+
+#radial-progress .inset {
+  width: 238px;
+  height: 238px;
+  background-color: #f7f7f7;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+
+.Apply .line {
+  box-sizing: border-box;
+  background-image: url('../images/img_emergency4.png');
+  width: 242px;
+  height: 242px;
+  background-size: 255px 245px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 50%;
+  margin-left: -121px;
+  margin-top: 4px;
+}
+
+.Apply .background {
+  box-sizing: border-box;
+  background-image: url('../images/img_emergency4.png');
+  width: 200px;
+  height: 104px;
+  background-size: 255px 245px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 73px;
+  left: 50%;
+  margin-left: -96px;
+}
+
+.Apply #people-wrapper {
+  width: 40px;
+  height: 20px;
+  top: 82px;
+  left: 59px;
+  margin: 0;
+  position: absolute;
+  overflow: hidden;
+}
+
+.Apply #people-wrapper.active {
+  width: 127px;
+  animation: people-fill;
+  animation-duration: 3.5s;
+  animation-timing-function: cubic-bezier(0,0,0.58,1);
+}
+
+@keyframes people-fill {
+  0%    { width: 40px; }
+  100%  { width: 120px; }
+}
+
+.Apply .people {
+  width: 120px;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.Apply .people-img {
+  float: none;
+  width: 7px;
+  height: 20px;
+  background-image: url('../images/ico_emergency_people.png');
+  background-size: 7px 20px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.Apply .counting {
+  top: 111px;
+  left: 89px;
+  position: absolute;
+  font-size: 32px;
+  font-weight: 400;
+  color: #526baa;
+}

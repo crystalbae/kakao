@@ -1,0 +1,107 @@
+.Footer {
+  padding: 20px;
+  border-top: 10px solid #F7F7F7;
+  padding: 0;
+}
+
+.Footer .law-text {
+  font-size: 12px;
+  padding: 25px;
+  line-height: 20px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.Footer p {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+
+ul.share {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  left: 50%;
+  margin-left: -92px;
+  margin-bottom: 103px;
+}
+
+ul.share li {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #EFEFEF;
+  display: inline-block;
+  margin: 5px 15px 5px 15px;
+}
+
+span.kakao {
+  background-image: url('../images/ico_product.png');
+  background-size: 250px 250px;
+  background-position: -25px -15px;
+  width: 34px;
+  height: 30px;
+  position: absolute;
+  margin-left: 13px;
+  margin-top: 15px;
+}
+
+span.facebook {
+  background-image: url('../images/ico_facebook.png');
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.app-store {
+  /*display: block;*/
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.app-store a {
+  width: 50%;
+  height: 60px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 17px;
+}
+
+.app-store a.google-btn {
+  background-color: #313955;
+}
+
+.app-store a.apple-btn {
+  background-color: #3d537d;
+}
+
+.app-store span {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -32px;
+}
+
+.app-store span.google {
+  background-image: url('../images/ico_playstore.png');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+.app-store span.apple {
+  background-image: url('../images/ico_appstore.png');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}

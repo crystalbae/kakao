@@ -1,0 +1,42 @@
+.Emergency-fund {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  height: 390px;
+}
+
+.Emergency-fund h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+.Emergency-fund ul {
+  list-style-type: none;
+  position: absolute;
+  width: 340px;
+  left: 50%;
+  margin-left: -170px;
+  padding: 0;
+}
+
+.Emergency-fund ul li {
+  width: 150px;
+  float: left;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin: 10px;
+}
+
+.Emergency-fund img {
+  width: 58px;
+}
+
+.Emergency-fund .img-top {
+  margin-bottom: 10px;
+}
+
+span.Emergency-info {
+  display: block;
+  line-height: 23px;
+}

@@ -1,0 +1,373 @@
+@media only screen and (max-width: 621px) {
+  .CheckCard {
+    height: 364px;
+  }
+}
+
+@media only screen and (min-width: 622px) {
+  .CheckCard {
+    height: 340px;
+  }
+}
+
+.CheckCard {
+  background-color: #3d537d;
+  padding: 30px 25px;
+  box-sizing: border-box;
+  color: white;
+}
+
+.CheckCard h5 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.CheckCard p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+#card-img {
+  background-image: url('../images/img_emergency5.png');
+  background-size: 400px 195px;
+  background-position: 0px -39px;
+  width: 62px;
+  height: 100px;
+  position: absolute;
+  margin-top: -31px;
+  margin-left: 10px;
+  visibility: hidden;
+}
+
+#card-img.active {
+  margin-top: -68px;
+  animation: card-up;
+  animation-duration: 0.8s;
+  visibility: visible;
+}
+
+@keyframes card-up {
+  from  { margin-top: -31px; opacity: 0; }
+  todo  { margin-top: -68px; opacity: 1; }
+}
+
+#highlight {
+  background-image: url('../images/img_emergency5.png');
+  background-size: 400px 195px;
+  width: 80px;
+  height: 37px;
+  position: absolute;
+  margin-top: -95px;
+  margin-left: -12px;
+  z-index: -1;
+}
+
+#highlight.active {
+  animation: twinkle;
+  animation-duration: 1.5s;
+  z-index: 0;
+}
+
+@keyframes twinkle {
+  0%    { z-index: -1; }
+  20%   { z-index: 0; }
+  40%   { z-index: -1; }
+  60%   { z-index: 0; }
+  80%   { z-index: -1; }
+  100%  { z-index: 0; }
+}
+
+.friends {
+  width: 338px;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -169px;
+  position: absolute;
+}
+
+.friends .character {
+  display: inline-block;
+  position: absolute;
+  background-image: url('../images/img_checkcard_top.png');
+  width: 320px
+  he
+
+}
+
+.friends .black {
+  background-image: url('../images/img_checkcard_top.png');
+  width: 91px;
+  height: 66px;
+  display: inline-block;
+}
+
+.friends .left-hand {
+  background-position: -95px -50px;
+  width: 16px;
+  height: 12px;
+  margin-top: 165px;
+  margin-left: -79px;
+}
+
+.friends .right-hand {
+  background-position: -115px -50px;
+  width: 16px;
+  height: 12px;
+  margin-top: 165px;
+  margin-left: -26px;
+}
+
+.friends .muzi {
+  background-position: 0px -70px;
+  width: 68px;
+  height: 120px;
+  margin-top: 64px;
+  margin-left: -21px;
+}
+
+.friends .con {
+  background-position: -95px 0px;
+  width: 36px;
+  height: 44px;
+  margin-top: 132px;
+  margin-left: 46px;
+}
+
+.friends .apeach {
+  background-position: -155px -70px;
+  width: 63px;
+  height: 86px;
+  margin-top: 95px;
+  margin-left: 93px;
+}
+
+.friends .lion {
+  background-position: -75px -70px;
+  width: 77px;
+  height: 120px;
+  margin-top: 66px;
+  margin-left: 154px;
+}
+
+.friends .card-back {
+  background-image: url('../images/img_checkcard_top.png');
+  background-position: 0px 175px;
+  width: 133px;
+  height: 172px;
+  margin-left: 113px;
+  display: inline-block;
+}
+
+#particles {
+  width: 500px;
+  height: 315px;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -250px;
+  position: absolute;
+}
+
+.particle-img {
+  background-image: url('../images/img_checkcard_top.png');
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  opacity: 0;
+}
+
+#particle-1 {
+  background-position: 85px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-2 {
+  background-position: 71px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-3 {
+  background-position: 57px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-4 {
+  background-position: 84px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-5 {
+  background-position: 71px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-6 {
+  background-position: 55px -17px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-7 {
+  background-position: 86px -31px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-8 {
+  background-position: 71px -29px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-9 {
+  background-position: 55px -33px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-10 {
+  background-position: 86px -45px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-11 {
+  background-position: 71px -44px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-12 {
+  background-position: 55px -43px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-13 {
+  background-position: 71px -58px;
+  top: 110px;
+  left: 47%;
+}
+
+
+#particle-14 {
+  background-position: 85px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-15 {
+  background-position: 71px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-16 {
+  background-position: 57px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-17 {
+  background-position: 84px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-18 {
+  background-position: 71px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-19 {
+  background-position: 55px -17px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-20 {
+  background-position: 86px -31px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-21 {
+  background-position: 71px -29px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-22 {
+  background-position: 55px -33px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-23 {
+  background-position: 86px -45px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-24 {
+  background-position: 71px -44px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-25 {
+  background-position: 55px -43px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-26 {
+  background-position: 71px -58px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-27 {
+  background-position: 85px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-28 {
+  background-position: 71px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-29 {
+  background-position: 57px 0px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-30 {
+  background-position: 84px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-31 {
+  background-position: 71px -14px;
+  top: 110px;
+  left: 47%;
+}
+
+#particle-32 {
+  background-position: 55px -17px;
+  top: 110px;
+  left: 47%;
+}

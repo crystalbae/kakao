@@ -1,0 +1,186 @@
+.Question h5 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 34px;
+}
+
+dl {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 0px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+dt {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 35px;
+  margin-bottom: 16px;
+  line-height: 26px;
+}
+
+dt span {
+  color: #526baa;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+dd {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  opacity: 0.5;
+  margin-left: 0px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+dd.last {
+  border-bottom: none;
+}
+
+
+button.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 17px 24px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #F0F0F0;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+span.menu-down {
+  background-image: url('../images/ico_product.png');
+  background-size: 250px 250px;
+  background-position: -14px 0px;
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  right: 20px;
+  margin-top: 7px;
+}
+
+
+span.menu-down.active {
+  background-position: -29px 0px;
+}
+
+.panel {
+  display: none;
+}
+
+.panel dl {
+  padding: 0px 25px 20px 25px;
+}
+
+.panel dt {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.panel dt.instruction {
+  margin-bottom: 35px;
+}
+
+.panel dt.instruction a {
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  float: right;
+}
+
+.panel dd {
+  opacity: 0.65;
+  border: none;
+  padding-bottom: 5px;
+}
+
+.panel dd span {
+  opacity: 0.75;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.panel p.emphasis {
+  color: #eb2d2b;
+  opacity: 1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.panel ul {
+  padding-left: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.panel li {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+  opacity: 1;
+}
+
+.panel li a {
+  color: black;
+  font-weight: 500;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.panel table {
+  border-collapse: collapse;
+  border: 1px solid #EBEBEB;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.panel table tr {
+  border: 1px solid #EBEBEB;
+}
+
+.panel table tr.table-top {
+  border-top: 1px solid black;
+}
+
+.panel table tr.first {
+  height: 70px;
+}
+
+.panel table tr.second {
+  height: 50px;
+}
+
+.panel table th {
+  background-color: #F0F0F0;
+  height: 45px;
+  padding: 0;
+  padding-left: 15px;
+  font-weight: 400;
+}
+
+.panel table th.table-left {
+  width: 36%;
+}
+
+.panel table td {
+  padding-left: 15px;
+}
+
+.panel table span.rates {
+  color: #084684;
+}
