@@ -13,14 +13,14 @@
 .Emergency-fund ul {
   list-style-type: none;
   position: absolute;
-  width: 340px;
+  width: 360px;
   left: 50%;
-  margin-left: -170px;
+  margin-left: -180px;
   padding: 0;
 }
 
 .Emergency-fund ul li {
-  width: 150px;
+  width: 160px;
   float: left;
   font-size: 14px;
   color: #666;

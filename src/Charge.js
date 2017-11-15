@@ -21,7 +21,7 @@ class Charge extends Component {
     if (scroll >= 350) {
       device.classList.add("active");
       setTimeout(() => { text.classList.add("active"); card.classList.add("active"); }, 1000);
-      setTimeout(() => { this.setState({ countup: <CountUp start={0} end={3854000} duration={1.25} useGrouping={true} /> }) } , 1000);
+      setTimeout(() => { this.setState({ countup: <CountUp start={0} end={3854000} duration={1.25} separator={','} useGrouping={true} /> }) } , 1000);
       window.removeEventListener("scroll", this.handleScroll);
     }
   }

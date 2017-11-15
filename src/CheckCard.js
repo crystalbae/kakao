@@ -57,13 +57,18 @@ class CheckCard extends Component {
     let that = this;
     for(var i = 1; i < 33; i++) {
       let particle = document.getElementById("particle-"+i);
-      particle.animate([
-        { transform: 'translate(0) rotateY(0)', opacity: 0.5 },
-        { transform: 'translate('+this.state.particleXY[i-1].midSpotX+'px, '+this.state.particleXY[i-1].midSpotY+'px) rotateY('+this.state.particleXY[i-1].ratateY+'deg)', opacity: 1 }
-      ], {
-        duration: this.state.particleXY[i-1].upDuration,
-        easing: 'cubic-bezier(.17,.67,.36,1)'
-      }).addEventListener('webkitAnimationEnd msAnimationEnd animationEnd', that.moveDownParticle(i, particle));
+
+      if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+
+      } else {
+        particle.animate([
+          { transform: 'translate(0) rotateY(0)', opacity: 0.5 },
+          { transform: 'translate('+this.state.particleXY[i-1].midSpotX+'px, '+this.state.particleXY[i-1].midSpotY+'px) rotateY('+this.state.particleXY[i-1].ratateY+'deg)', opacity: 1 }
+        ], {
+          duration: this.state.particleXY[i-1].upDuration,
+          easing: 'cubic-bezier(.17,.67,.36,1)'
+        }).addEventListener('webkitAnimationEnd msAnimationEnd animationEnd', that.moveDownParticle(i, particle));
+      }
     }
   }
 
