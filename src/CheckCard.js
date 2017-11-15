@@ -58,7 +58,7 @@ class CheckCard extends Component {
     for(var i = 1; i < 33; i++) {
       let particle = document.getElementById("particle-"+i);
 
-      if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+      if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent) || /Edge\/\d./i.test(navigator.userAgent)) {
 
       } else {
         particle.animate([

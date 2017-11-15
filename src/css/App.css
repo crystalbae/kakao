@@ -72,9 +72,15 @@
     font-size: 15px;
     font-weight: 100;
   }
+
+  .app-store .logo {
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+  }
 }
 
-@supports (-ms-accelerator:true) {
+@supports (-ms-ime-align: auto) {
   /* IE Edge 12+ CSS styles go here */
   .Charge #text {
     width: 110px;
