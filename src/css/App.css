@@ -47,6 +47,31 @@
     font-size: 15px;
     font-weight: 100;
   }
+
+  .Question dd {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .Question dt span {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .panel li {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 23px;
+  }
+
+  .panel dd span {
+    font-weight: 100;
+  }
+
+  .panel table {
+    font-size: 15px;
+    font-weight: 100;
+  }
 }
 
 @supports (-ms-accelerator:true) {
@@ -64,5 +89,34 @@
   .Apply p {
     font-size: 15px;
     font-weight: 100;
+  }
+
+  .Question dd {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .Question dt span {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .panel li {
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 23px;
+  }
+
+  .panel dd span {
+    font-weight: 100;
+  }
+
+  .panel table {
+    font-size: 15px;
+    font-weight: 100;
+  }
+
+  .app-store span {
+    position: relative;
   }
 }

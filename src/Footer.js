@@ -51,8 +51,14 @@ class Footer extends Component {
 
         </ul>
         <div className="app-store">
-          <a className="google-btn" href="https://play.google.com/store/apps/details?id=com.kakaobank.channel"><span className="google"></span>Google Play</a>
-          <a className="apple-btn" href="https://itunes.apple.com/kr/app/id1258016944?mt=8"><span className="apple"></span>App Store</a>
+          <a className="google-btn" href="https://play.google.com/store/apps/details?id=com.kakaobank.channel">
+            <div className="logo google-logo"></div>
+            <span>Google Play</span>
+          </a>
+          <a className="apple-btn" href="https://itunes.apple.com/kr/app/id1258016944?mt=8">
+            <div className="logo apple-logo"></div>
+            <span>App Store</span>
+          </a>
         </div>
       </div>
     );

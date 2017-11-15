@@ -6,14 +6,14 @@
   margin-bottom: 34px;
 }
 
-dl {
+.Question dl {
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 0px;
   border-bottom: 1px solid #EBEBEB;
 }
 
-dt {
+.Question dt {
   font-size: 18px;
   font-weight: 400;
   margin-top: 35px;
@@ -21,15 +21,15 @@ dt {
   line-height: 26px;
 }
 
-dt span {
+.Question dt span {
   color: #526baa;
   font-weight: 700;
   margin-right: 5px;
 }
 
-dd {
+.Question dd {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22px;
   opacity: 0.5;
   margin-left: 0px;
@@ -37,10 +37,9 @@ dd {
   border-bottom: 1px solid #CCCCCC;
 }
 
-dd.last {
+.Question dd.last {
   border-bottom: none;
 }
-
 
 button.accordion {
   background-color: white;
@@ -105,7 +104,7 @@ span.menu-down.active {
 
 .panel dd span {
   opacity: 0.75;
-  font-weight: 700;
+  font-weight: 500;
   padding-bottom: 0;
 }
 
@@ -127,7 +126,7 @@ span.menu-down.active {
 
 .panel li {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22px;
   opacity: 1;
 }

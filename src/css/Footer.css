@@ -82,26 +82,21 @@ span.facebook {
   background-color: #3d537d;
 }
 
-.app-store span {
+.app-store .logo {
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
   position: absolute;
-  margin-top: 15px;
-  margin-left: -32px;
+  top: 17px;
+  margin-left: -30px;
 }
 
-.app-store span.google {
+.app-store .google-logo {
   background-image: url('../images/ico_playstore.png');
-  background-size: 25px 25px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
 }
 
-.app-store span.apple {
+.app-store .apple-logo {
   background-image: url('../images/ico_appstore.png');
-  background-size: 25px 25px;
-  background-repeat: no-repeat;
-  display: inline-block;
-  width: 25px;
-  height: 25px;
 }
