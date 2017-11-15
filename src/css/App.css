@@ -116,7 +116,9 @@
     font-weight: 100;
   }
 
-  .app-store span {
+  .app-store .logo {
     position: relative;
+    top: 5px;
+    margin-right: 5px;
   }
 }
