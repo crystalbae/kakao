@@ -2,11 +2,6 @@
   background-color: #f1f1f1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #f1f1f1;
   width: 100%;
@@ -36,7 +31,38 @@
   overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* IE10+ CSS styles go here */
+  .Charge #text {
+    width: 110px;
+    margin-top: 12px;
+    font-weight: 500;
+  }
+
+  .Apply h5 {
+    font-weight: 300;
+  }
+
+  .Apply p {
+    font-size: 15px;
+    font-weight: 100;
+  }
+}
+
+@supports (-ms-accelerator:true) {
+  /* IE Edge 12+ CSS styles go here */
+  .Charge #text {
+    width: 110px;
+    margin-top: 12px;
+    font-weight: 500;
+  }
+
+  .Apply h5 {
+    font-weight: 300;
+  }
+
+  .Apply p {
+    font-size: 15px;
+    font-weight: 100;
+  }
 }
