@@ -24,28 +24,30 @@ class Footer extends Component {
     const script = `
       <script type='text/javascript'>
         Kakao.init('1f8322f27d219bb255bfa879cd0845a5');
-        Kakao.Link.createDefaultButton({
-          container: '#kakao-link-btn',
-          objectType: 'feed',
-          content: {
-            title: '카카오뱅크 비상금대출',
-            description: '60초면 충전 끝. 모바일 비상금',
-            imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
-            link: {
-              mobileWebUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share',
-              webUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share'
-            }
-          },
-          buttons: [
-            {
-              title: '자세히 보기',
+        function sendLink() {
+          Kakao.Link.sendDefault({
+            container: '#kakao-link-btn',
+            objectType: 'feed',
+            content: {
+              title: '카카오뱅크 비상금대출',
+              description: '60초면 충전 끝. 모바일 비상금',
+              imageUrl: 'http://mud-kage.kakao.co.kr/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png',
               link: {
                 mobileWebUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share',
                 webUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share'
               }
-            }
-          ]
-        });
+            },
+            buttons: [
+              {
+                title: '자세히 보기',
+                link: {
+                  mobileWebUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share',
+                  webUrl: 'https://www.kakaobank.com/app/products/emergencyLoan/share'
+                }
+              }
+            ]
+          });
+        }
       </script>
     `;
   }

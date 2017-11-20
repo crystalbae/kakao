@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import update from 'react-addons-update';
 import './css/CheckCard.css';
-import particles from './images/img_checkcard_top.png'
 
 class CheckCard extends Component {
   constructor(props) {
