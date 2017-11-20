@@ -1,7 +1,7 @@
 .Apply {
   padding: 20px 20px 25px 20px;
   background-color: #f7f7f7;
-  height: 500px;
+  /*height: 500px;*/
 }
 
 .Apply h5 {
@@ -24,7 +24,9 @@
   height: 248px;
   left: 50%;
   margin-left: -124px;
-  position: absolute;
+  margin-bottom: 45px;
+  /*position: absolute;*/
+  position: relative;
   border-radius: 50%;
   visibility: hidden;
 }
