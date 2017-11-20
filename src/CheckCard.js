@@ -58,8 +58,8 @@ class CheckCard extends Component {
     for(var i = 1; i < 33; i++) {
       let particle = document.getElementById("particle-"+i);
 
-      if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent) || /Edge\/\d./i.test(navigator.userAgent)) {
-
+      if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent) || /Edge\/\d./i.test(navigator.userAgent) || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        // IE, Edge, Mobile에서 animate 작동하지 않음.
       } else {
         particle.animate([
           { transform: 'translate(0) rotateY(0)', opacity: 0.5 },
