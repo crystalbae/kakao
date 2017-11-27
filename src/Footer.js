@@ -79,7 +79,7 @@ class Footer extends Component {
         <div className="law-text">준법감시인 심의필 17-47(2017.07.17~2018.07.16)</div>
         <p>친구에게 알려주세요!</p>
         <ul className="share">
-          <li><a id="kakao-link-btn" href="javascript:;" onClick={this.platformCheck.bind(this)}><span className="kakao"></span></a></li>
+          <li><a id="kakao-link-btn" href="javascript:sendLink()" onClick={this.platformCheck.bind(this)}><span className="kakao"></span></a></li>
           <li><a className="fb-xfbml-parse-ignore" href="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.kakaobank.com%2Fapp%2Fproducts%2FemergencyLoan%2Fshare&amp;src=sdkpreparse', '_blank', 'width=600, height=400');"><span className="facebook"></span></a></li>
 
         </ul>
